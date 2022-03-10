@@ -57,5 +57,5 @@ while dealer_turn and not game_over:
 
 if not game_over and your_value > dealer_value:
   print("\nYou win!")
-else:
+elif not game_over and dealer_value > your_value:
   print("\nYou lose!")
